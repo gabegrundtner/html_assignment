@@ -3,6 +3,7 @@ class AssignmentController < ApplicationController
   	puts "+++++++++"
   end
   def show
+  	#@name_age = params[:name][:name]
   	puts "------------ "+params.inspect
   end
  end
