@@ -1,5 +1,9 @@
 HtmlAssignment::Application.routes.draw do
 
+  resources :requirements
+
+  get "news/display"
+
   root to: "assignment#assignment"
 
   post "/assignment/show"
